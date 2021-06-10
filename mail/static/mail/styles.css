@@ -1,0 +1,61 @@
+textarea {
+    min-height: 400px;
+}
+
+ul {
+  border-collapse: collapse;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  display: flex;
+  text-align: center;
+}
+
+li {
+  float: left;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 2px;
+}
+
+#emails-list {
+}
+
+#emailposting {
+  border: 1px solid black;
+}
+
+#emailposting:hover {
+  color: lightgray;
+  cursor: pointer;
+}
+
+#listitemsender {
+  font-weight: bold;
+  display: inline-block;
+}
+
+#listitemsubject {
+  display: inline-block;
+  padding-left: 2%;
+}
+
+#listitemtimestamp {
+  color: grey;
+  display: inline-block;
+  float: right;
+}
+
+#body {
+  border-top: 2px solid gray;
+}
+
+#reply {
+  display: inline-block;
+  margin-right: 1%;
+}
+
+#archive {
+  display: inline-block;
+}
